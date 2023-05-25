@@ -46,7 +46,7 @@ CREATE SCHEMA IF NOT EXISTS lojas AUTHORIZATION joao_antonio;
 
                                                             -- Alterar para o database uvv e definir o "search path" --
 
-ALTER DATABASE uvv SET search_path TO "lojas", public;
+ALTER DATABASE uvv SET search_path TO "lojas", "$user", public;
 
 SET SEARCH_PATH TO lojas, "$user", public;
 

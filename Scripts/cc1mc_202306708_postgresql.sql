@@ -27,6 +27,8 @@ CREATE DATABASE uvv
     LC_COLLATE = 'pt_BR.UTF-8'
     LC_CTYPE = 'pt_BR.UTF-8'
     ALLOW_CONNECTIONS = true;
+    COMMENT ON DATABASE uvv IS 'Banco de dados criado para armazenar informações de um gestão de negocios dentro da uvv';
+
 
                                           -- Fazendo com que a senha criptografada seja rodada sem precisar de uma interferencia manual --
 
@@ -43,6 +45,8 @@ DROP SCHEMA IF EXISTS lojas;
                                                                               -- Criar o schema lojas -- 
 
 CREATE SCHEMA IF NOT EXISTS lojas AUTHORIZATION joao_antonio;
+COMMENT ON SCHEMA lojas IS 'Schema criado para um nicho específico dentro da uvv sendo lojas';
+
 
                                                             -- Alterar para o database uvv e definir o "search path" --
 

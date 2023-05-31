@@ -12,7 +12,7 @@ DROP USER IF EXISTS joao_antonio;
 
                                                                      -- Criar o usuário com senha criptografada --
 
-CREATE USER joao_antonio WITH CREATEDB CREATEROLE ENCRYPTED PASSWORD 'raiz';
+CREATE USER joao_antonio WITH CREATEDB CREATEROLE ENCRYPTED PASSWORD 'computacao@raiz';
 
                                                                            -- Criando a ROLE joao_antonio --
 
@@ -32,7 +32,7 @@ CREATE DATABASE uvv
 
                                           -- Fazendo com que a senha criptografada seja rodada sem precisar de uma interferencia manual --
 
-\setenv PGPASSWORD raiz
+\setenv PGPASSWORD computacao@raiz
 
                                                                           -- Conectar no banco de dados uvv--
 

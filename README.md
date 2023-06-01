@@ -8,12 +8,7 @@
   <h3>Aluno: João Antônio Napoli Klein Evangelista</h3>
   <h3>Turma: CC1MC</h3>
   <h3>Professor: Abrantes Araujo Silva Filho</h3>
-  <h3>Pasta SCRIPTS </h3>
-  <h4>Arquivos que contém na pasta SCRIPTS</h4>
-  <ul>
-    <li><b>cc1mc_202306708_postgresql.sql :</b> Script de criação do banco de dados</li>
-    <li><b>cc1mc_202306708_postgresql.architect :</b> Arquivo do Power Architect</li>
-    <li><b>cc1mc_202306708_postgresql.pdf :</b> PDF do diagrama do banco de dados UVV</li>
-  </ul>
+  <h3>Pasta pset1 </h3>
+ 
 </body>
 </html>
